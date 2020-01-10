@@ -15,11 +15,9 @@
  */
 package nl.knaw.dans.release.releasedraft
 
-import scala.util.{ Success, Try }
-
 class ReleaseDraftTestApp(configuration: Configuration)  {
 
   println("hello world 1")
   println("hello world 2")
-
+  println("hello world 3")
 }
