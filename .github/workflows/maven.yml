@@ -18,6 +18,6 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Maven
-        run: mvn clean install -DskipTests
+        run: mvn --no-transfer-progress clean install -DskipTests
       - name: Run tests with Maven
-        run: mvn clean test
+        run: mvn --no-transfer-progress clean test
