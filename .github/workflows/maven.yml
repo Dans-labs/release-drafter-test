@@ -4,9 +4,24 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - '.github/**'
+      - 'docs/**'
+      - '.gitignore'
+      - '.travis.yml'
+      - 'debug-init-env.sh'
+      - 'README.md'
   pull_request:
     branches:
       - master
+    paths-ignore:
+      - '.github/**'
+      - 'docs/**'
+      - '.gitignore'
+      - '.travis.yml'
+      - 'debug-init-env.sh'
+      - 'README.md'
+
 jobs:
   build:
     name: Setting the Ubuntu Environment
@@ -18,6 +33,6 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Maven
-        run: mvn --no-transfer-progress clean install -DskipTests
+        run: mvn -ntp clean install -DskipTests
       - name: Run tests with Maven
-        run: mvn --no-transfer-progress clean test
+        run: mvn -ntp clean test
