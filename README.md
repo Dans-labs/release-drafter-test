@@ -17,6 +17,7 @@ test how release-draft can work together with our workflow in EASY
 
 here's a change
 here's a second change
+here's a third change
 
 
 ARGUMENTS
