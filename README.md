@@ -13,7 +13,7 @@ SYNOPSIS
 DESCRIPTION
 -----------
 
-test how release-drafter can work together with our workflow in EASY
+test how release-draft can work together with our workflow in EASY
 
 here's a change
 here's a second change

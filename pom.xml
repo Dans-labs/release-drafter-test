@@ -31,7 +31,7 @@
 
     <name>RELEASE Draft Test</name>
     <url>https://github.com/rvanheest/release-drafter-test</url>
-    <description>test how release-drafter can work together with our workflow in EASY with pull requests and commits to master</description>
+    <description>test how release-draft can work together with our workflow in EASY</description>
     <inceptionYear>2020</inceptionYear>
 
     <properties>
