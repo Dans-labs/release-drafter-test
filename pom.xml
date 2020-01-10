@@ -27,7 +27,7 @@
 
     <groupId>nl.knaw.dans.release</groupId>
     <artifactId>release-draft-test</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
 
     <name>RELEASE Draft Test</name>
     <url>https://github.com/rvanheest/release-drafter-test</url>
@@ -40,7 +40,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/rvanheest/release-drafter-test</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0.3</tag>
     </scm>
 
     <dependencies>
