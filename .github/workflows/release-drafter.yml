@@ -8,9 +8,11 @@ on:
 
 jobs:
   update_release_draft:
+    name: Setting the Ubuntu Environment
     runs-on: ubuntu-latest
     steps:
-      - uses: release-drafter/release-drafter@v5.5.0
+      - name: Run release-drafter
+        uses: release-drafter/release-drafter@v5.5.0
         with:
           config-name: release-drafter.yml
         env:
