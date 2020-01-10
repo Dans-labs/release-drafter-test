@@ -15,6 +15,8 @@ DESCRIPTION
 
 test how release-drafter can work together with our workflow in EASY
 
+here's a change
+
 
 ARGUMENTS
 ---------
