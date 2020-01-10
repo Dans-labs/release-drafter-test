@@ -19,6 +19,6 @@ import scala.util.{ Success, Try }
 
 class ReleaseDraftTestApp(configuration: Configuration)  {
 
-
+  println("hello world 1")
 
 }
