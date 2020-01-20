@@ -27,6 +27,7 @@ class CommandLineOptions(args: Array[String], configuration: Configuration) exte
   val synopsis: String =
     s"""
        |  $printedName (synopsis of command line parameters)
+       |  hello world
        |  $printedName (... possibly multiple lines for subcommands)""".stripMargin
 
   version(s"$printedName v${ configuration.version }")
