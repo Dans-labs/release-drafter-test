@@ -1,9 +1,3 @@
----
-title: ''
-labels: weekly
-assignees: ''
----
-
 Fixes EASY-
 
 * 
