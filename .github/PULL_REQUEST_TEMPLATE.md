@@ -1,6 +1,8 @@
-<!-- presettings
-label=weekly
---->
+---
+title: ''
+labels: weekly
+assignees: ''
+---
 
 Fixes EASY-
 
