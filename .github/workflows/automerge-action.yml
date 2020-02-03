@@ -7,7 +7,6 @@ on:
 
 jobs:
   automerge:
-    needs: pr-labeler
     runs-on: ubuntu-latest
     steps:
       - name: automerge
