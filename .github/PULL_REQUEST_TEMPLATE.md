@@ -1,3 +1,7 @@
+---
+labels: weekly
+---
+
 Fixes EASY-
 
 * 
