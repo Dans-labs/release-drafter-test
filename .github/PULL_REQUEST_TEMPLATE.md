@@ -1,5 +1,5 @@
 <!-- presettings
-labels: weekly
+label=weekly
 --->
 
 Fixes EASY-
