@@ -18,3 +18,5 @@ jobs:
           MERGE_COMMIT_MESSAGE: "automatic"
           MERGE_FORKS: "true"
           MERGE_DELETE_BRANCH: "true"
+          UPDATE_LABELS: ""
+          UPDATE_METHOD: "merge"
